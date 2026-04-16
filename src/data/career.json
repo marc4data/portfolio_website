@@ -1,0 +1,84 @@
+[
+  {
+    "company": "MedImpact",
+    "title": "Manager, Business Intelligence & Analytics",
+    "start": "Nov 2024",
+    "end": "Present",
+    "location": "San Diego, CA",
+    "summary": "Leading BI, Analytics, and Data Science integration for a post-acquisition organization — managing a combined team while designing and building a next-generation consolidated analytics platform.",
+    "highlights": [
+      "Designed and executed the migration plan to consolidate reporting onto a unified next-generation platform, driving >$1M in annual licensing savings.",
+      "Assessed ETL, reporting, and analytics systems across both organizations; identified high-risk fragile components and stabilized critical workflows.",
+      "Challenged the legacy Data Warehouse architecture and delivered an alternative design recognized as the #1 enhancement by business stakeholders during UAT and Production rollout.",
+      "Led rapid team expansion — onboarding, mentoring, and integrating new talent across multiple in-flight projects while maintaining legacy system stability."
+    ]
+  },
+  {
+    "company": "Cue Health",
+    "title": "Senior Manager, Business Intelligence",
+    "start": "Mar 2022",
+    "end": "Jun 2024",
+    "location": "San Diego, CA",
+    "summary": "Built the data engineering and analytics function from zero — selected the technology stack, hired and led the team, and governed data quality and delivery standards across a high-growth medical device company.",
+    "highlights": [
+      "Architected the full modern data stack — selected Fivetran, dbt, and GCP/BigQuery; directed implementation; established data quality standards, alerting systems, and operational playbooks.",
+      "Oversaw integrations with 12+ source systems including NetSuite, Salesforce, Shopify, IQVIA SmartSolve, Google Analytics, and manufacturing data feeds.",
+      "Led integration of data from 12+ manufacturing cells into the data lake, enabling OEE analytics and real-time visibility that identified and resolved a $10M field failure issue.",
+      "Built and governed predictive analytics and ML capabilities — customer segmentation, LTV scoring, cohort attrition, marketing optimization, and system health monitoring.",
+      "Established a Data Governance Board, project prioritization framework, and cross-team coordination model that scaled with the organization."
+    ]
+  },
+  {
+    "company": "Zebit",
+    "title": "Senior Director, Business Intelligence",
+    "start": "Jun 2017",
+    "end": "Mar 2022",
+    "location": "San Diego, CA",
+    "summary": "Built and led the data organization as Senior Director for five years — managing Data Engineers, Analysts, and Data Scientists while owning the company's BI strategy and infrastructure for a DTC platform serving 10M+ users.",
+    "highlights": [
+      "Formulated the company Data Strategy and stood up the Data Governance Board — establishing the prioritization and accountability frameworks that scaled with rapid commercial growth.",
+      "Designed and oversaw implementation of the enterprise data warehouse and pipeline — establishing data quality and reliability standards supporting the full business lifecycle.",
+      "Managed a team delivering analytics across marketing performance, customer acquisition, conversion, LTV, and business liquidity calculations for creditors.",
+      "Directed the design of a custom Magento-to-NetSuite integration — a high-volume, spike-tolerant data pipeline built for peak retail traffic loads.",
+      "Established and enforced BI delivery standards across Tableau Online, Python, and R — raising quality and consistency of all analytical outputs organization-wide."
+    ]
+  },
+  {
+    "company": "American Specialty Health",
+    "title": "Associate Director, Analytics",
+    "start": "Jun 2016",
+    "end": "Jun 2017",
+    "location": "San Diego, CA",
+    "summary": "Promoted from individual contributor to Associate Director — rebuilt the analytics function and turned around underperforming revenue-generating Tableau products.",
+    "highlights": [
+      "Overhauled Tableau licensing and delivery strategy, saving $50K annually and achieving a 400% increase in end-user adoption and engagement.",
+      "Managed analytics and BI teams across California and Indiana, establishing delivery standards and performance management practices."
+    ]
+  },
+  {
+    "company": "MAKO-Labs",
+    "title": "Director, Business Intelligence",
+    "start": "Jan 2014",
+    "end": "Jan 2016",
+    "location": "San Diego, CA",
+    "summary": "Built the Business Intelligence program from zero at a high-growth internet startup — established the team, technology, and delivery model.",
+    "highlights": [
+      "Led a team converting high-volume web logs into structured analytics datasets powering dynamic Tableau dashboards.",
+      "Designed and deployed a Go/No-Go Decision Tool that optimized marketing ROI against user acquisition funnels — directly supporting budget allocation decisions.",
+      "Transformed a fragile ETL system into a reliable, monitored pipeline, eliminating data accuracy and timeliness issues across the organization."
+    ]
+  },
+  {
+    "company": "Bridgepoint Education",
+    "title": "Director, Data Analytics",
+    "start": "Feb 2006",
+    "end": "Jan 2014",
+    "location": "San Diego, CA",
+    "summary": "Established and led the analytics and BI function over eight years — building the team, data warehouse, and reporting infrastructure that supported a university through 300% annualized growth.",
+    "highlights": [
+      "Co-designed and built the Enterprise Data Warehouse — authoring the ETL framework, data model, and compliance reporting infrastructure for a large-scale online university.",
+      "Designed and implemented a predictive analytics program that identified students at high risk of academic failure, enabling targeted counselor interventions that reduced adverse outcomes by 18%.",
+      "Managed Tableau Server and analytics infrastructure for thousands of users across diverse academic and operational departments."
+    ]
+  }
+]

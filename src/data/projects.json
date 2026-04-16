@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Portfolio E-Commerce Analytics",
+    "description": "End-to-end analytics pipeline built on the TheLook e-commerce dataset. Combines dbt for transformation, BigQuery for warehousing, and the Claude API for automated insight generation — producing plain-English analysis of sales trends, customer behavior, and product performance without manual intervention.",
+    "tags": ["dbt", "BigQuery", "Python", "Claude API", "GCP"],
+    "github": "https://github.com/marc4data/portfolio-ecomm",
+    "demo": null,
+    "status": "live"
+  },
+  {
+    "title": "MedImpact Platform Consolidation",
+    "description": "Post-acquisition integration of two legacy healthcare analytics environments onto a unified next-generation platform. Assessed ETL systems across both organizations, eliminated redundant tooling, and delivered a consolidated architecture that drove >$1M in annual licensing savings while improving data quality and delivery reliability.",
+    "tags": ["Data Architecture", "ETL", "SQL Server", "Tableau", "Data Governance"],
+    "github": null,
+    "demo": null,
+    "status": "case-study"
+  },
+  {
+    "title": "Cue Health Manufacturing Intelligence",
+    "description": "Real-time analytics pipeline integrating data from 12+ manufacturing cells into a GCP data lake. Enabled OEE (Overall Equipment Effectiveness) monitoring and production quality analytics — including the early-warning signal that identified and helped resolve a $10M field failure issue before it reached full scale.",
+    "tags": ["Fivetran", "dbt", "BigQuery", "GCP", "Real-Time Analytics", "ML"],
+    "github": null,
+    "demo": null,
+    "status": "case-study"
+  }
+]

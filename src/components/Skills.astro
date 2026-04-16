@@ -1,0 +1,39 @@
+---
+import skillsData from '../data/skills.json';
+---
+
+<section id="skills" class="bg-white py-20 md:py-28">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Section header -->
+    <div class="mb-14 text-center">
+      <p class="text-brand-teal text-sm font-semibold tracking-widest uppercase mb-2">Technical Depth</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy">Skills & Stack</h2>
+      <p class="mt-3 text-brand-slate text-base md:text-lg max-w-xl mx-auto">
+        The tools I build with — and the certifications that prove the depth is real.
+      </p>
+    </div>
+
+    <!-- Skills grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {skillsData.map(category => (
+        <div class="bg-brand-light rounded-xl p-6 border border-gray-100 hover:border-brand-teal/30 hover:shadow-sm transition-all">
+          <!-- Category header -->
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-2xl" aria-hidden="true">{category.icon}</span>
+            <h3 class="text-sm font-bold text-brand-navy uppercase tracking-wide">{category.category}</h3>
+          </div>
+          <!-- Skill chips -->
+          <div class="flex flex-wrap gap-2">
+            {category.skills.map(skill => (
+              <span class="bg-white border border-brand-slate/15 text-brand-slate text-xs font-medium px-3 py-1.5 rounded-full shadow-sm">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>

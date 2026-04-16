@@ -1,0 +1,32 @@
+[
+  {
+    "category": "BI & Visualization",
+    "icon": "📊",
+    "skills": ["Tableau", "Power BI", "Looker", "Hex", "Superset", "SSRS"]
+  },
+  {
+    "category": "Data Engineering",
+    "icon": "⚙️",
+    "skills": ["dbt", "Fivetran", "Snowflake", "BigQuery", "SQL", "Python", "SSIS", "Talend", "Alteryx"]
+  },
+  {
+    "category": "Cloud & Platform",
+    "icon": "☁️",
+    "skills": ["GCP", "AWS", "Azure", "Databricks", "Tableau Server", "Snowflake"]
+  },
+  {
+    "category": "Analytics & ML",
+    "icon": "🧠",
+    "skills": ["Predictive Modeling", "Machine Learning", "Statistical Analysis", "AI/LLM Integration", "R", "Python"]
+  },
+  {
+    "category": "Leadership & Strategy",
+    "icon": "🎯",
+    "skills": ["Data Strategy", "KPI Architecture", "Data Governance", "Org Design", "Executive Reporting", "Agile/Scrum"]
+  },
+  {
+    "category": "Certifications",
+    "icon": "🏅",
+    "skills": ["CBIP (Business Analytics)", "dbt Certified", "Snowflake Certified", "Tableau Certified", "Alteryx Certified", "Six Sigma Black Belt", "Scrum Master"]
+  }
+]
