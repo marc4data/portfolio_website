@@ -1,11 +1,11 @@
 {
-  "bio": "I'm an analytics executive who specializes in one thing: arriving at organizations where the data function is broken, immature, or non-existent — and building something that actually works. Across healthcare, fintech, ed-tech, ad-tech, and medical devices, the pattern has been consistent: assess what's there, design what's needed, build the team and the infrastructure, and deliver measurable business outcomes. My background in industrial engineering and Six Sigma gives me a process discipline that's rare in analytics leadership. I think about data infrastructure the way an engineer thinks about systems — reliability, scalability, and measurable performance at every layer. I'm also deeply technical. I can write the dbt models, architect the warehouse, and lead the governance board in the same week.",
+  "bio": "Building and rebuilding data organizations is what I do best. I step into environments where the data function is broken, immature, or non-existent, and turn it into one that actually delivers. Across healthcare, fintech, ed-tech, ad-tech, and medical devices, the pattern has been consistent: assess what's there, design what's needed, build the team and the infrastructure, and deliver measurable business outcomes. My background in industrial engineering and Six Sigma gives me a process discipline that's rare in analytics leadership. I think about data infrastructure the way an engineer thinks about systems — reliability, scalability, and measurable performance at every layer. I'm also deeply technical. I can write the dbt models, architect the warehouse, and lead the governance board in the same week.",
   "location": "San Diego, CA",
   "openToRemote": true,
   "linkedin": "https://linkedin.com/in/marc4data",
   "github": "https://github.com/marc4data",
   "email": "marc4data@gmail.com",
-  "headshot": "/images/headshot.jpeg",
+  "headshot": "/images/headshot_v03.jpeg",
   "resumeUrl": "/marc_alexander_resume.pdf",
   "education": [
     {

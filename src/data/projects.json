@@ -1,26 +1,34 @@
 [
   {
+    "title": "NYC TLC Yellow Taxi — Analytics Engineering + ML Portfolio",
+    "description": "A full-stack analytics project on NYC Taxi & Limousine Commission Yellow Taxi data: warehouse modeling, exploratory analysis, hourly-demand forecasting, and LLM-generated stakeholder briefings. Two years (2024–2025), ~80M trips, ~265 zones.",
+    "tags": ["dbt", "Snowflake", "Python", "EDA toolkit", "Claude Code", "Claude API", "Demand prediction", "GCP", "LLM integration", "Jupyter", "Data Viz"],
+    "github": "https://github.com/marc4data/portfolio-nyc-taxi",
+    "demo": "https://marc4data.github.io/portfolio-nyc-taxi/",
+    "status": "Public"
+  },  
+  {
     "title": "Portfolio E-Commerce Analytics",
     "description": "End-to-end analytics pipeline built on the TheLook e-commerce dataset. Combines dbt for transformation, BigQuery for warehousing, and the Claude API for automated insight generation — producing plain-English analysis of sales trends, customer behavior, and product performance without manual intervention.",
-    "tags": ["dbt", "BigQuery", "Python", "Claude API", "GCP"],
+    "tags": ["dbt", "BigQuery", "Python", "Claude API", "GCP", "Tableau", "Jupyter", "EDA", "Data Viz"],
     "github": "https://github.com/marc4data/portfolio-ecomm",
     "demo": null,
-    "status": "live"
+    "status": "Public"
   },
   {
-    "title": "MedImpact Platform Consolidation",
-    "description": "Post-acquisition integration of two legacy healthcare analytics environments onto a unified next-generation platform. Assessed ETL systems across both organizations, eliminated redundant tooling, and delivered a consolidated architecture that drove >$1M in annual licensing savings while improving data quality and delivery reliability.",
-    "tags": ["Data Architecture", "ETL", "SQL Server", "Tableau", "Data Governance"],
-    "github": null,
-    "demo": null,
-    "status": "case-study"
+    "title": "Database Profiling Utility (dbprofile)",
+    "description": "Command-line profiler that runs nine data-quality checks against Snowflake, BigQuery, or DuckDB and produces a self-contained HTML report, a 0–100 quality score per table, an Excel workbook, and runnable Jupyter EDA notebooks pre-wired to the source. Makes data-quality assessment a one-command, reproducible step in any analytics project.",
+    "tags": ["Python", "Snowflake", "BigQuery", "DuckDB", "Data Quality", "CLI"],
+    "github": "https://github.com/marc4data/dbprofile",
+    "demo": "https://marc4data.github.io/portfolio-nyc-taxi/dbprofile_report.html",
+    "status": "Public"
   },
   {
-    "title": "Cue Health Manufacturing Intelligence",
-    "description": "Real-time analytics pipeline integrating data from 12+ manufacturing cells into a GCP data lake. Enabled OEE (Overall Equipment Effectiveness) monitoring and production quality analytics — including the early-warning signal that identified and helped resolve a $10M field failure issue before it reached full scale.",
-    "tags": ["Fivetran", "dbt", "BigQuery", "GCP", "Real-Time Analytics", "ML"],
-    "github": null,
-    "demo": null,
-    "status": "case-study"
+    "title": "Notebook-to-Report Utility (nb2report)",
+    "description": "CLI that turns a Jupyter notebook into a polished, stakeholder-ready HTML report — strips every code cell, renders markdown as narrative, and embeds charts inline as base64. Output is a single file with a navigable table of contents, sortable tables, and callout boxes that you can email or host anywhere with zero dependencies.",
+    "tags": ["Python", "Jupyter", "CLI", "Reporting", "Analytics Engineering"],
+    "github": "https://github.com/marc4data/nb2report-analytics",
+    "demo": "https://marc4data.github.io/nb2report-analytics/",
+    "status": "Public"
   }
 ]
