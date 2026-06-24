@@ -1,5 +1,13 @@
 [
   {
+    "title": "World Cup 2026",
+    "description": "Data pipeline that ingests, validates, and models 2026 FIFA World Cup data daily with zero-duplicate, zero-orphan integrity guarantees. It transforms that foundation into data-driven infographics, analytical notebooks, and Excel/BI exports — showcasing the full analytics engineering lifecycle from ingestion to visualization.",
+    "tags": ["Python", "SQLite", "GitHub Actions CI/CD", "pytest", "Claude Code", "Data Viz"],
+    "github": "https://github.com/marc4data/world-cup-2026",
+    "demo": null,
+    "status": "Live"
+  },  
+  {
     "title": "NYC TLC Yellow Taxi — Analytics Engineering + ML Portfolio",
     "description": "A full-stack analytics project on NYC Taxi & Limousine Commission Yellow Taxi data: warehouse modeling, exploratory analysis, hourly-demand forecasting, and LLM-generated stakeholder briefings. Two years (2024–2025), ~80M trips, ~265 zones.",
     "tags": ["dbt", "Snowflake", "Python", "EDA toolkit", "Claude Code", "Claude API", "Demand prediction", "GCP", "LLM integration", "Jupyter", "Data Viz"],
@@ -18,7 +26,7 @@
   {
     "title": "Database Profiling Utility (dbprofile)",
     "description": "Command-line profiler that runs nine data-quality checks against Snowflake, BigQuery, or DuckDB and produces a self-contained HTML report, a 0–100 quality score per table, an Excel workbook, and runnable Jupyter EDA notebooks pre-wired to the source. Makes data-quality assessment a one-command, reproducible step in any analytics project.",
-    "tags": ["Python", "Snowflake", "BigQuery", "DuckDB", "Data Quality", "CLI"],
+    "tags": ["EDA", "Data Viz", "Python", "Snowflake", "BigQuery", "DuckDB", "Data Quality", "CLI"],
     "github": "https://github.com/marc4data/dbprofile",
     "demo": "https://marc4data.github.io/portfolio-nyc-taxi/dbprofile_report.html",
     "status": "Public"
