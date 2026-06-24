@@ -5,7 +5,7 @@
     "tags": ["Python", "SQLite", "GitHub Actions CI/CD", "pytest", "Claude Code", "Data Viz"],
     "github": "https://github.com/marc4data/world-cup-2026",
     "demo": null,
-    "status": "Live"
+    "status": "live"
   },  
   {
     "title": "NYC TLC Yellow Taxi — Analytics Engineering + ML Portfolio",
@@ -18,7 +18,7 @@
   {
     "title": "Portfolio E-Commerce Analytics",
     "description": "End-to-end analytics pipeline built on the TheLook e-commerce dataset. Combines dbt for transformation, BigQuery for warehousing, and the Claude API for automated insight generation — producing plain-English analysis of sales trends, customer behavior, and product performance without manual intervention.",
-    "tags": ["dbt", "BigQuery", "Python", "Claude API", "GCP", "Tableau", "Jupyter", "EDA", "Data Viz"],
+    "tags": ["dbt", "BigQuery", "Python", "Claude API", "Codex", "GCP", "Tableau", "Jupyter", "EDA", "Data Viz"],
     "github": "https://github.com/marc4data/portfolio-ecomm",
     "demo": null,
     "status": "Public"
@@ -37,6 +37,14 @@
     "tags": ["Python", "Jupyter", "CLI", "Reporting", "Analytics Engineering"],
     "github": "https://github.com/marc4data/nb2report-analytics",
     "demo": "https://marc4data.github.io/nb2report-analytics/",
+    "status": "Public"
+  },
+  {
+    "title": "USA Inbound Border Crossings",
+    "description": "An analysis of data published by the Bureau of Transportation Statistics on the number, type, and location of border crossings into the USA.  Pristine dataset. I frequently use this dataset when interviewing BI/Analytic candidates.",
+    "tags": ["Tableau", "Python", "R"],
+    "github": "https://github.com/marc4data/usa-inbound_border_crossing",
+    "demo": "https://public.tableau.com/app/profile/marcdoesbi/viz/USInboundBorderCrossingDatav2/MAINDashboard",
     "status": "Public"
   }
 ]
