@@ -4,7 +4,7 @@
     "description": "Data pipeline that ingests, validates, and models 2026 FIFA World Cup data daily with zero-duplicate, zero-orphan integrity guarantees. It transforms that foundation into data-driven infographics, analytical notebooks, and Excel/BI exports — showcasing the full analytics engineering lifecycle from ingestion to visualization.",
     "tags": ["Python", "SQLite", "GitHub Actions CI/CD", "pytest", "Claude Code", "Data Viz"],
     "github": "https://github.com/marc4data/world-cup-2026",
-    "demo": null,
+    "demo": "https://marc4data.github.io/world-cup-2026/reports/knockout_dashboard.html",
     "status": "live"
   },  
   {
