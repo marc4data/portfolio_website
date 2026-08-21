@@ -1,11 +1,19 @@
 [
   {
+    "title": "cfdb — College Football Data Platform",
+    "description": "Production data platform for college football: a dual-engine warehouse (Postgres + Databricks) with checksum-verified parity, Airflow orchestration on a season-aware cadence, and a three-layer dimensional model feeding an 18-page Streamlit site. 65 source tables, ~3M records spanning 1869–2026, 268 dbt tests, and a publication boundary governing two separate data licences. Includes a betting-model layer that measures itself honestly — it does not beat the closing line, and the Model Performance page says so.",
+    "tags": ["dbt", "PostgreSQL", "Databricks", "Airflow", "Streamlit", "Python", "Claude Code", "Cowork", "Dimensional Modeling", "Data Quality", "CI/CD", "Cloudflare", "Data Viz"],
+    "github": "https://github.com/marc4data/ncaa_football",
+    "demo": "https://cfdb.marc4data.com/",
+    "status": "Live"
+  },  
+  {
     "title": "World Cup 2026",
     "description": "Data pipeline that ingests, validates, and models 2026 FIFA World Cup data daily with zero-duplicate, zero-orphan integrity guarantees. It transforms that foundation into data-driven infographics, analytical notebooks, and Excel/BI exports — showcasing the full analytics engineering lifecycle from ingestion to visualization.",
     "tags": ["Python", "SQLite", "GitHub Actions CI/CD", "pytest", "Claude Code", "Data Viz"],
     "github": "https://github.com/marc4data/world-cup-2026",
     "demo": "https://marc4data.github.io/world-cup-2026/reports/knockout_dashboard.html",
-    "status": "live"
+    "status": "Public"
   },  
   {
     "title": "NYC TLC Yellow Taxi — Analytics Engineering + ML Portfolio",
