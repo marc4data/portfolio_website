@@ -1,7 +1,7 @@
 [
   {
     "title": "cfdb — College Football Data Platform",
-    "description": "Production data platform for college football: a dual-engine warehouse (Postgres + Databricks) with checksum-verified parity, Airflow orchestration on a season-aware cadence, and a three-layer dimensional model feeding an 18-page Streamlit site. 65 source tables, ~3M records spanning 1869–2026, 268 dbt tests, and a publication boundary governing two separate data licences. Includes a betting-model layer that measures itself honestly — it does not beat the closing line, and the Model Performance page says so.",
+    "description": "Production data platform for college football: a dual-engine warehouse (Postgres + Databricks) with checksum-verified parity, Airflow orchestration on a season-aware cadence, and a three-layer dimensional model feeding an 18-page Streamlit site. 65 source tables, ~3M records spanning 1869–2026, 268 dbt tests, and a publication boundary governing two separate data licences. Includes a betting-model layer that rolls several predictive techniques into an ensemble model.",
     "tags": ["dbt", "PostgreSQL", "Databricks", "Airflow", "Streamlit", "Python", "Claude Code", "Cowork", "Dimensional Modeling", "Data Quality", "CI/CD", "Cloudflare", "Data Viz"],
     "github": "https://github.com/marc4data/ncaa_football",
     "demo": "https://cfdb.marc4data.com/",
