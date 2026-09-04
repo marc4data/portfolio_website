@@ -1,12 +1,5 @@
 [
   {
-    "title": "Remote Property Monitoring Pipeline",
-    "description": "Weather-station telemetry from an unoccupied lake house into self-managed PostgreSQL on GCP, with a daily email answering one question for three non-technical readers: is the house all right? Caught a 14-day air-conditioning failure that the obvious check missed — a house that is already hot is not climbing. 377K observations across 39 metrics on a 5-minute grid, 14 day-scoped data-quality checks, 29 schema constraints making raw payloads append-only and unit drift unstorable, six systemd timers on a $44/year e2-micro, and a dead-man's switch that alarms on silence rather than errors. 101 tests against recorded fixtures; Claude API writes the plain-English opening of an alert but is never allowed to block one.",
-    "tags": ["Python", "PostgreSQL", "GCP", "Airflow", "systemd", "pandas", "matplotlib", "Jupyter", "Claude API", "Claude Code", "Cowork", "Data Quality", "Time Series", "IoT", "Observability", "Data Viz"],
-    "github": "https://github.com/marc4data/ecowitt-weather#ecowitt-weather--postgresql--a-daily-email-that-answers-one-question",
-    "status": "Live"
-  },  
-  {
     "title": "NCAA Football Data Platform",
     "description": "Production data platform for college football: a dual-engine warehouse (Postgres + Databricks) with checksum-verified parity, Airflow orchestration on a season-aware cadence, and a three-layer dimensional model feeding an 18-page Streamlit site. 65 source tables, ~3M records spanning 1869–2026, 268 dbt tests, and a publication boundary governing two separate data licences. Includes a betting-model layer that rolls several predictive techniques into an ensemble model.",
     "tags": ["dbt", "PostgreSQL", "Databricks", "Airflow", "Streamlit", "Python", "Claude Code", "Cowork", "Dimensional Modeling", "Data Quality", "CI/CD", "Cloudflare", "Data Viz"],
@@ -14,6 +7,13 @@
     "demo": "https://cfdb.marc4data.com/",
     "status": "Live"
   }, 
+  {
+    "title": "Remote Property Monitoring Pipeline",
+    "description": "Weather-station telemetry from an unoccupied lake house into self-managed PostgreSQL on GCP, with a daily email answering one question for three non-technical readers: is the house all right? Caught an electical issue impacting A/C with daily process checking boundary conditions. 377K observations across 39 metrics on a 5-minute grid, 29 schema constraints making raw payloads append-only and unit drift unstorable, six systemd timers, and a dead-man's switch that alarms on silence rather than errors. 101 tests against recorded fixtures; technical details of a failure condition passed to Claude API for plain-English opening of an alert but is never allowed to block one.",
+    "tags": ["Python", "PostgreSQL", "GCP", "Airflow", "systemd", "pandas", "matplotlib", "Jupyter", "Claude API", "Claude Code", "Cowork", "Data Quality", "Time Series", "IoT", "Observability", "Data Viz"],
+    "github": "https://github.com/marc4data/ecowitt-weather#ecowitt-weather--postgresql--a-daily-email-that-answers-one-question",
+    "status": "Live"
+  },  
   {
     "title": "World Cup 2026",
     "description": "Data pipeline that ingests, validates, and models 2026 FIFA World Cup data daily with zero-duplicate, zero-orphan integrity guarantees. It transforms that foundation into data-driven infographics, analytical notebooks, and Excel/BI exports — showcasing the full analytics engineering lifecycle from ingestion to visualization.",
