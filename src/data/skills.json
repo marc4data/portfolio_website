@@ -7,7 +7,7 @@
   {
     "category": "Data Engineering",
     "icon": "⚙️",
-    "skills": ["dbt", "Fivetran", "Snowflake", "BigQuery", "SQL", "Python", "SSIS", "Talend", "Alteryx"]
+    "skills": ["dbt", "Fivetran", "Snowflake", "Databricks", "BigQuery", "SQL", "Python", "SSIS", "Talend", "Alteryx", "Airflow"]
   },
   {
     "category": "Cloud & Platform",
